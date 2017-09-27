@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_80sdp"
+    android:layout_height="@dimen/_90sdp"
+    android:background="@color/darkPurple"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_category"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_circular"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        tools:text="T" />
+
+    <TextView
+        android:id="@+id/txt_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp"
+        tools:text="Science and Technology" />
+
+</LinearLayout>
